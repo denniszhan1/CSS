@@ -1,0 +1,185 @@
+*{  
+    /* outline: 1px dashed red; */
+    margin: 0px auto;
+    vertical-align: top;
+    font-family: Arial;
+    color:white;
+}
+
+p{
+    padding: 5px;
+}
+a{
+    color:white;
+}
+
+span{
+    font-style:italic;
+    color:yellow;
+    font-size:20px;
+}
+
+#wrapper {
+    width:970px;
+    background-color: rgb(51, 80, 143);
+    padding:15px;
+}
+
+#header{
+    height:150px;
+}
+
+.container{
+    padding:10px;
+}
+
+#header .container{
+    width: 460px;
+    display: inline-block;
+}
+
+#header img{
+    width: 400px;
+}
+
+#searchsize{
+    width:400px;
+    height:100px;
+    position: relative;
+    left:0px;
+    text-align:right;
+    font-size:13px;
+}
+
+#searchsize a{
+    color:yellow;
+}
+
+#search{
+    padding:15px;
+    width:270px;
+    height:35px;
+    position: relative;
+    left: 100px;
+    background-color: rgb(78, 83, 83);
+    box-shadow: 2px 2px black;
+    border-radius:15px;
+}
+
+#searchbar{
+    padding:10px;
+    font-size:10px;
+    border: 1px solid grey;
+    width: 70%;
+    background:white;
+    border-style:inset;
+    border-width:1.5px;
+}
+
+::-webkit-input-placeholder{
+    text-align:center;
+}
+
+.go{
+    background-color: rgb(51, 80, 143);
+    color:white;
+    padding:6px;
+    position:relative;
+    top:1px;
+}
+
+.toolbar{
+    width: 85%;
+    margin-left: 80px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+}
+
+.tablist{
+    background-color: rgb(75, 114, 199);
+    margin: 0px;
+    padding: 0 0 0 20px;
+    overflow: hidden;
+    border-radius:10px;
+    font-size: 20px;
+    list-style-type: none;
+    color:white;
+}
+
+.tab {
+    float: left;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+.navigation{
+    margin-left: 80px;
+    display: inline-block; 
+    width: 250px;
+    text-align: center;
+}
+
+.arrow{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color:yellow;
+}
+
+.main{
+    display: inline-block; 
+    width: 560px; 
+    vertical-align: top;
+    text-align: center;
+}
+
+.pres{
+    padding:15px;
+    width:970px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.box{    
+    border-top: 8px solid rgb(75, 114, 199);
+    display: inline-block; 
+    width: 350px; 
+    vertical-align: top;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.box ul li{
+    width:70%;
+    color: black;
+    font-size:13px;
+}
+.box p{
+    width:80%;
+    color:black;
+    padding:5px;
+}
+
+.box span{
+    color: rgb(75, 114, 199);
+    font-size:13px;
+}
+.footer{
+    width:1000px;
+    text-align: center;
+    padding: 25px 0 5px 0; 
+    background-color: rgb(51, 80, 143);
+}
+
+.website{
+    font-size: 14px;
+    padding-right: 20px;
+    color: rgb(75, 114, 199);
+}
+
+.footer p{
+    color:rgb(75, 114, 199);
+    padding:5px;
+    font-size:10px
+}
