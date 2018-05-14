@@ -1,43 +1,70 @@
 *{
     margin: 10px;
     padding: 0px;
-   }
-   #wrapper{
+}
+#wrapper{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
     padding: 10px;
-   }
-   #header{
+}
+#header{
     margin: 10px 10px 10px 10px;
     height: 150px;
     background-color: green;
-   }
-   #navigation{
+}
+#navigation{
     margin: 10px;
     height: 300px;
     width: 200px;
     background-color: blue;
     display: inline-block;
     vertical-align:top;
-   }
-   #main_content{
+}
+#main_content{
     margin: 10px;
     height: 400px;
     width: 700px;
     background-color: red;
     display: inline-block;
-   }
-   .subcontents{
+}
+.subcontents{
     margin:10px 0px 10px 10px;
     height: 200px;
     width: 210px;
     background-color: yellow;
     display: inline-block;
-   }
-   #advertisement{
+}
+#advertisement{
     margin: 10px;
     height: 120px;
     width: 660px;
     background-color: purple;
-   }
+}
+
+@media only screen and (max-width: 480px){
+    .sm{
+        width:33%;
+    }
+    .sm0{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .md{
+        width:50%;
+    }
+    .md0{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .lg{
+        width:99%;
+    }
+    .lg0{
+        display:none;
+    }
+}
